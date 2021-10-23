@@ -1,3 +1,11 @@
 .header {
-  border-color: brown;
+  border: 1px solid;
+  border-color: black;
+  align-content: center;
+}
+
+.main {
+  border: 1px solid;
+  border-color: black;
+  align-content: center;
 }
