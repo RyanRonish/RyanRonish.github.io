@@ -1,9 +1,10 @@
 body {
-  background-color: lightcyan;
+  background-color: lightblue;
   margin: 96px 96px 96px 96px;
 }
 
 .header {
+  background-color: lightgray;
   border: 2px solid;
   border-color: black;
   text-align: center;
@@ -13,9 +14,11 @@ body {
   border: 2px solid;
   border-color: black;
   text-align: center;
+  background-color: royalblue;
 }
 
 .footer {
+  background-color: lightgray;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border: 2px solid;
