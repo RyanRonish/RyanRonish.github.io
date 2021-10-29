@@ -1,5 +1,5 @@
 body {
-  background-color: lightcoral;
+  background-color: lightcyan;
 }
 
 .header {
@@ -9,14 +9,15 @@ body {
 }
 
 .main {
-  border: 1px solid;
-  border-color: black 2 px;
+  border: 2px solid;
+  border-color: black;
   text-align: center;
 }
 
 .footer {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: lightcoral;
+  border: 2px solid;
+  border-color: black;
   text-align: center;
 }
