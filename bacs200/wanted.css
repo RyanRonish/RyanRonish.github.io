@@ -36,3 +36,15 @@
   border: 2px solid;
   border-color: white;
 }
+
+.text-block2 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+  background-color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 2px solid;
+  border-color: white;
+}
