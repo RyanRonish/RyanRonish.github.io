@@ -11,11 +11,12 @@ body {
 .main {
   border: 1px solid;
   border-color: black 2 px;
-  align-content: center;
+  text-align: center;
 }
 
 .footer {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: black;
+  text-align: center;
 }
