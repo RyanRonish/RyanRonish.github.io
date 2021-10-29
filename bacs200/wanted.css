@@ -1,7 +1,7 @@
 .header {
   border: 1px solid;
   border-color: black 2px;
-  align-content: center;
+  text-align: center;
 }
 
 .main {
