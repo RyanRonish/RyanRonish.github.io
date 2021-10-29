@@ -1,12 +1,12 @@
 .header {
   border: 1px solid;
-  border-color: black;
+  border-color: black 2px;
   align-content: center;
 }
 
 .main {
   border: 1px solid;
-  border-color: black;
+  border-color: black 2 px;
   align-content: center;
 }
 
