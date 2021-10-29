@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  background-color: lightgray;
+  color: lightgray;
   border: 2px solid;
   border-color: black;
   text-align: center;
@@ -14,11 +14,11 @@ body {
   border: 2px solid;
   border-color: black;
   text-align: center;
-  background-color: royalblue;
+  color: royalblue;
 }
 
 .footer {
-  background-color: lightgray;
+  color: lightgray;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border: 2px solid;
