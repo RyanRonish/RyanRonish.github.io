@@ -3,3 +3,15 @@ body {
   margin-right: 60px;
   background-color: white;
 }
+
+.img-box {
+  width: 50px;
+  border: 2px solid;
+  border-color: black;
+  top: 30px;
+  left: 30px;
+}
+
+.responsive {
+  float: left;
+}
