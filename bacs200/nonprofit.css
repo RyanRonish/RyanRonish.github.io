@@ -1,17 +1,17 @@
 body {
-  background-color: black;
+  background-color: white;
   margin-left: 96px;
   margin-right: 96px;
 }
 
 header {
-  background-color: azure;
+  background-color: aliceblue;
 }
 
 main {
-  background-color: black;
+  background-color: aliceblue;
 }
 
 footer {
-  background-color: azure;
+  background-color: aliceblue;
 }
