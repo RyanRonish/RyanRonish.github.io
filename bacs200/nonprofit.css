@@ -1,5 +1,13 @@
 body {
-  background-color: royalblue;
+  background-color: lightblue;
   margin-left: 96px;
   margin-right: 96px;
+}
+
+header {
+  background-color: azure;
+}
+
+main {
+  background-color: azure;
 }
