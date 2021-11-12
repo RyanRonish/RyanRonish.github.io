@@ -1,17 +1,23 @@
 body {
-  background-color: white;
+  background-color: black;
   margin-left: 96px;
   margin-right: 96px;
 }
 
 header {
-  background-color: aliceblue;
+  background-color: lightblue;
+  margin-left: 96px;
+  margin-right: 96px;
 }
 
 main {
   background-color: aliceblue;
+  margin-left: 96px;
+  margin-right: 96px;
 }
 
 footer {
-  background-color: aliceblue;
+  background-color: lightblue;
+  margin-left: 96px;
+  margin-right: 96px;
 }
