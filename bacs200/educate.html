@@ -7,7 +7,7 @@
     <title>Educate Project</title>
     <style>
       body {
-        background-color: beige;
+        background-color: black;
       }
       table,
       th,
@@ -21,185 +21,215 @@
         border: 1px solid black;
         overflow: hidden;
       }
+      header {
+        background-color: lightgoldenrodyellow;
+        margin-left: 96px;
+        margin-right: 96px;
+      }
+      main {
+        background-color: lightgray;
+        margin-left: 96px;
+        margin-right: 96px;
+      }
+      footer {
+        background-color: lightgoldenrodyellow;
+        margin-left: 96px;
+        margin-right: 96px;
+      }
     </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
   </head>
 
   <body>
     <h1>Education</h1>
-    <table>
-      <caption>
-        Ted Talks
-      </caption>
-      <tr>
-        <th>The Nerd's guide to learning everything online -- John Green</th>
-        <th>Let's use video to reinvent education -- Sal Khan</th>
-        <th>Do schools kill creativity -- Sir Ken Robinson</th>
-      </tr>
-      <tr>
-        <th>
-          <div style="max-width: 854px">
-            <div style="position: relative; height: 0; padding-bottom: 56.25%">
-              <iframe
-                src="https://embed.ted.com/talks/john_green_the_nerd_s_guide_to_learning_everything_online"
-                width="200"
-                height="200"
-                style="
-                  position: absolute;
-                  left: 0;
-                  top: 0;
-                  width: 100%;
-                  height: 100%;
-                "
-                frameborder="0"
-                scrolling="no"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-        </th>
-        <th>
-          <div style="max-width: 854px">
-            <div style="position: relative; height: 0; padding-bottom: 56.25%">
-              <iframe
-                src="https://embed.ted.com/talks/sal_khan_let_s_use_video_to_reinvent_education"
-                width="200"
-                height="200"
-                style="
-                  position: absolute;
-                  left: 0;
-                  top: 0;
-                  width: 100%;
-                  height: 100%;
-                "
-                frameborder="0"
-                scrolling="no"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-        </th>
-        <th>
-          <div style="max-width: 854px">
-            <div style="position: relative; height: 0; padding-bottom: 56.25%">
-              <iframe
-                src="https://embed.ted.com/talks/sir_ken_robinson_do_schools_kill_creativity"
-                width="200"
-                height="200"
-                style="
-                  position: absolute;
-                  left: 0;
-                  top: 0;
-                  width: 100%;
-                  height: 100%;
-                "
-                frameborder="0"
-                scrolling="no"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-        </th>
-      </tr>
-      <tbody>
-        <tr>
-          <th style="width: 200px">
-            Some of us learn best in the classroom, and some of us ... well, we
-            don't. But we still love to learn -- we just need to find the way
-            that works for us. In this charming, personal talk, author John
-            Green shares the community of learning that he found in online
-            video.
-          </th>
-          <th style="width: 200px">
-            Salman Khan talks about how and why he created the remarkable Khan
-            Academy, a carefully structured series of educational videos
-            offering complete curricula in math and, now, other subjects. He
-            shows the power of interactive exercises, and calls for teachers to
-            consider flipping the traditional classroom script -- give students
-            video lectures to watch at home, and do "homework" in the classroom
-            with the teacher available to help.
-          </th>
-          <th style="width: 200px">
-            Sir Ken Robinson makes an entertaining and profoundly moving case
-            for creating an education system that nurtures (rather than
-            undermines) creativity.
-          </th>
-        </tr>
-      </tbody>
-    </table>
+    <main>
+      <div class="container-fluid p-5 text-black text-center">
+        <table>
+          <caption>
+            Ted Talks
+          </caption>
+          <tr>
+            <th>The Nerd's guide to learning everything online -- John Green</th>
+            <th>Let's use video to reinvent education -- Sal Khan</th>
+            <th>Do schools kill creativity -- Sir Ken Robinson</th>
+          </tr>
+          <tr>
+            <th>
+              <div style="max-width: 854px">
+                <div style="position: relative; height: 0; padding-bottom: 56.25%">
+                  <iframe
+                    src="https://embed.ted.com/talks/john_green_the_nerd_s_guide_to_learning_everything_online"
+                    width="200"
+                    height="200"
+                    style="
+                      position: absolute;
+                      left: 0;
+                      top: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    frameborder="0"
+                    scrolling="no"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </th>
+            <th>
+              <div style="max-width: 854px">
+                <div style="position: relative; height: 0; padding-bottom: 56.25%">
+                  <iframe
+                    src="https://embed.ted.com/talks/sal_khan_let_s_use_video_to_reinvent_education"
+                    width="200"
+                    height="200"
+                    style="
+                      position: absolute;
+                      left: 0;
+                      top: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    frameborder="0"
+                    scrolling="no"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </th>
+            <th>
+              <div style="max-width: 854px">
+                <div style="position: relative; height: 0; padding-bottom: 56.25%">
+                  <iframe
+                    src="https://embed.ted.com/talks/sir_ken_robinson_do_schools_kill_creativity"
+                    width="200"
+                    height="200"
+                    style="
+                      position: absolute;
+                      left: 0;
+                      top: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    frameborder="0"
+                    scrolling="no"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </th>
+          </tr>
+          <tbody>
+            <tr>
+              <th style="width: 200px">
+                Some of us learn best in the classroom, and some of us ... well, we
+                don't. But we still love to learn -- we just need to find the way
+                that works for us. In this charming, personal talk, author John
+                Green shares the community of learning that he found in online
+                video.
+              </th>
+              <th style="width: 200px">
+                Salman Khan talks about how and why he created the remarkable Khan
+                Academy, a carefully structured series of educational videos
+                offering complete curricula in math and, now, other subjects. He
+                shows the power of interactive exercises, and calls for teachers to
+                consider flipping the traditional classroom script -- give students
+                video lectures to watch at home, and do "homework" in the classroom
+                with the teacher available to help.
+              </th>
+              <th style="width: 200px">
+                Sir Ken Robinson makes an entertaining and profoundly moving case
+                for creating an education system that nurtures (rather than
+                undermines) creativity.
+              </th>
+            </tr>
+          </tbody>
+        </table>
 
-    <table>
-      <caption>
-        RSA Animation
-      </caption>
-      <tr>
-        <th>Changing Education Paradigms -- Sir Ken Robinson</th>
-        <th>
-          How to help every child fufil their full potential -- Carol Dweck
-        </th>
-        <th>Left Brain, Right Brain -- Matthew Taylor</th>
-      </tr>
-      <tr>
-        <th>
-          <iframe
-            width="200"
-            height="200"
-            src="https://www.youtube.com/embed/zDZFcDGpL4U"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; 
-          clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          >
-          </iframe>
-        </th>
-        <th>
-          <iframe
-            width="200"
-            height="200"
-            src="https://www.youtube.com/embed/Yl9TVbAal5s"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; 
-          clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          >
-          </iframe>
-        </th>
-        <th>
-          <iframe
-            width="200"
-            height="200"
-            src="https://www.youtube.com/embed/Ql3Jp3ydfE8"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; 
-          clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          >
-          </iframe>
-        </th>
-      </tr>
-      <tbody>
-        <tr>
-          <th style="width: 200px">
-            This RSA Animate was adapted from a talk given at the RSA by Sir Ken
-            Robinson, world-renowned education and creativity expert and
-            recipient of the RSA's Benjamin Franklin award.
-          </th>
-          <th style="width: 200px">
-            Ever wondered why kids say they’re bored at school, or why they stop
-            trying when the work gets harder? Educationalist Carol Dweck
-            explains how the wrong kind of praise actually *harms* young people.
-          </th>
-          <th style="width: 200px">
-            In this early RSA Animate Matthew Taylor explores how brain and
-            behaviour research is increasingly being incorporated into political
-            and policy debate.
-          </th>
-        </tr>
-      </tbody>
-    </table>
+        <table>
+          <caption>
+            RSA Animation
+          </caption>
+          <tr>
+            <th>Changing Education Paradigms -- Sir Ken Robinson</th>
+            <th>
+              How to help every child fufil their full potential -- Carol Dweck
+            </th>
+            <th>Left Brain, Right Brain -- Matthew Taylor</th>
+          </tr>
+          <tr>
+            <th>
+              <iframe
+                width="200"
+                height="200"
+                src="https://www.youtube.com/embed/zDZFcDGpL4U"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; 
+              clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </th>
+            <th>
+              <iframe
+                width="200"
+                height="200"
+                src="https://www.youtube.com/embed/Yl9TVbAal5s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; 
+              clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </th>
+            <th>
+              <iframe
+                width="200"
+                height="200"
+                src="https://www.youtube.com/embed/Ql3Jp3ydfE8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; 
+              clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </th>
+          </tr>
+          <tbody>
+            <tr>
+              <th style="width: 200px">
+                This RSA Animate was adapted from a talk given at the RSA by Sir Ken
+                Robinson, world-renowned education and creativity expert and
+                recipient of the RSA's Benjamin Franklin award.
+              </th>
+              <th style="width: 200px">
+                Ever wondered why kids say they’re bored at school, or why they stop
+                trying when the work gets harder? Educationalist Carol Dweck
+                explains how the wrong kind of praise actually *harms* young people.
+              </th>
+              <th style="width: 200px">
+                In this early RSA Animate Matthew Taylor explores how brain and
+                behaviour research is increasingly being incorporated into political
+                and policy debate.
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
 
-    <a href="index.html">Main Page</a>
+    <footer>
+      <div class="container-fluid p-5 text-black text-center">
+        <p><a href="index.html">BACS 200 Folder</a></p>
+        <img class="img-responsive" src="RR.png" alt="RR" width="200" />
+        <p>&#169 A Ryan Ronish Production</p>
+      </div>
+    </footer>
   </body>
 </html>
