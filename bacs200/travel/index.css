@@ -1,5 +1,9 @@
 body {
-  background-color: black;
+  background-color: lightgray;
+}
+
+header {
+  background-color: lightblue;
   margin-right: 96px;
   margin-left: 96px;
 }
