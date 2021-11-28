@@ -8,3 +8,15 @@ nav {
   margin-right: 96px;
   margin-left: 96px;
 }
+
+main {
+  background-color: white;
+  margin-right: 96px;
+  margin-left: 96px;
+}
+
+footer {
+  background-color: lightblue;
+  margin-right: 96px;
+  margin-left: 96px;
+}
