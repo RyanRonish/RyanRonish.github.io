@@ -2,7 +2,8 @@ header {
   background-color: lightgreen;
   margin-left: 96px;
   margin-right: 96px;
-  border-style: solid 2px;
+  border-style: solid;
+  border-width: 2px;
   border-color: black;
 }
 
@@ -22,6 +23,7 @@ footer {
   background-color: lightgreen;
   margin-left: 96px;
   margin-right: 96px;
-  border-style: solid 2px;
+  border-style: solid;
+  border-width: 2px;
   border-color: black;
 }
