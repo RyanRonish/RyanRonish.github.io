@@ -2,7 +2,8 @@ header {
   background-color: lightgreen;
   margin-left: 96px;
   margin-right: 96px;
-  border: black 2px;
+  border-style: solid 2px;
+  border-color: black;
 }
 
 nav {
@@ -21,4 +22,6 @@ footer {
   background-color: lightgreen;
   margin-left: 96px;
   margin-right: 96px;
+  border-style: solid 2px;
+  border-color: black;
 }
