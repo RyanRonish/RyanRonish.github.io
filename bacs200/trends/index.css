@@ -2,8 +2,7 @@ header {
   background-color: lightgreen;
   margin-left: 96px;
   margin-right: 96px;
-  border: solid;
-  border: 2px black;
+  border: solid black 2px;
 }
 
 nav {
